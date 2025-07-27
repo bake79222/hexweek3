@@ -1,0 +1,399 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Noto Sans TC', 'Microsoft JhengHei UI', 'Microsoft JhengHei', sans-serif;
+}
+// 通用類別
+.test-border{
+    border: 1px solid red;
+}
+//color
+:root {
+    --primary-100: #F5FEE7;
+    --primary-200: #E8FEC5;
+    --primary-300: #C0FA73;
+    --primary-400: #57A203;
+    --primary-500: #477A11;
+    --neutral-0:#FFFFFF;
+    --neutral-100:#F8F9FA;
+    --neutral-200:#E9ECEF;
+    --neutral-300:#DEE2E6;
+    --neutral-400:#CED4DA;
+    --neutral-500:#ADB5BD;
+    --neutral-600:#6C757D;
+    --neutral-700:#495057;
+    --neutral-800:#343A40;
+    --neutral-900:#212529; 
+}
+.text-primary-100{
+    color:  var(--primary-100);
+}
+.text-primary-200{
+    color:  var(--primary-200);
+}
+.text-primary-300{
+    color:  var(--primary-300);
+}
+.text-primary-400{
+    color:  var(--primary-400);
+}
+.text-primary-500{
+    color:  var(--primary-500);
+}
+.text-neutral-0{
+    color:  var(--neutral-0);
+}
+.text-neutral-100{
+    color:  var(--neutral-100);
+}
+.text-neutral-200{
+    color:  var(--neutral-200);
+}
+.text-neutral-300{
+    color:  var(--neutral-300);
+}
+.text-neutral-400{
+    color:  var(--neutral-400);
+}
+.text-neutral-500{
+    color:  var(--neutral-500);
+}
+.text-neutral-600{
+    color:  var(--neutral-600);
+}
+.text-neutral-700{
+    color:  var(--neutral-700);
+}
+.text-neutral-800{
+    color:  var(--neutral-800);
+}
+.text-neutral-900{
+    color:  var(--neutral-900);
+}
+.bg-primary-200{
+background-color: var(--primary-200);
+}
+
+//背景顏色
+.bg-primary-100 {
+  background-color: var(--primary-100);
+}
+.bg-primary-200 {
+  background-color: var(--primary-200);
+}
+.bg-primary-300 {
+  background-color: var(--primary-300);
+}
+.bg-primary-400 {
+  background-color: var(--primary-400);
+}
+.bg-primary-500 {
+  background-color: var(--primary-500);
+}
+
+
+
+// 字型內容
+.text-no-decoration {
+    text-decoration: none ;
+}
+.logofont{
+    font-family: 'Mina', sans-serif;
+}
+.display1-sm{
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+.display2-sm{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h1-sm{
+    font-weight: 700;
+    font-size: 40;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h2-sm{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h3-sm{
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.h4-sm{
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.h5-sm{
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 20px;
+}
+.h6-sm{
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 16px;
+}
+.label-lg{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.label-md{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.label-sm{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.label-xs{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 12px;
+}
+.p-lg{
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.p-md{
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.p-sm{
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.p-xs{
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+
+//通用類別
+
+.ms-sm-40{
+    margin-left: 40px;
+}
+
+.left-200{
+    left: 200px;
+}
+.mt-sm-60{
+    margin-top: 60px;
+}
+.py-sm-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.py-sm-118{
+    padding-top: 118px;
+    padding-bottom: 118px;
+}
+
+///頁面樣式
+.star{
+    
+    width: 48px;
+    top: 68px;
+    left: calc(50% - 397px);
+}
+.sparkle{
+
+    width: 76px;
+    bottom: 132px;
+    right: calc(50% - 357px);
+
+}
+
+.productclass{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bg-gray-text{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.custom-gutter-sm-8{
+    --bs-gutter-x: 8px;
+    gap: var(--bs-gutter-x); /* 用於 flex 模式 */
+    flex-wrap: wrap;
+}
+
+.ins-sm-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -4px;
+}
+.ins-sm-col-4{
+    width: calc(100% / 12 * 4);
+    padding: 4px;
+}
+.ins-sm-col-6{
+    width: calc(100% / 12 * 6);
+    padding: 4px;
+}
+.ins-sm-col-12{
+    width: 100%;
+    padding: 4px;
+}
+
+
+@media (max-width: 576px) {
+    //通用類別
+    .gy-12{
+        --bs-gutter-y: 12px; 
+    }
+    .mb-32{
+       margin-bottom: 32px !important; 
+    }
+    .pb-xs-4{
+        padding-bottom: 4px;
+    }
+    .py-12{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .py-40{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .px-xs-24 {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+    //文字
+    .display2{
+        font-size: 48px;
+        line-height: 1.2;
+        letter-spacing: 0.05em;
+    }
+    .h1{
+        font-weight: 700;
+        font-size: 40;
+        line-height: 1.2;
+        letter-spacing: 0.05em;
+    }
+    .h2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.2;
+        letter-spacing: 0.05em;
+    }
+    .h3{
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    .h4{
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .h5{
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 20px;
+    }
+    .h6{
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 16px;
+    }
+    //頁面樣式
+    .slogan-xs{          
+        left: 50% !important;           
+        transform: translate(-50%,-50%) !important; 
+        white-space: nowrap;    
+        max-width: calc(100% - 48px); 
+        margin-left: 24px;
+    }
+
+    .d-flex{
+        .flex-shrink-0{
+            width: 300px;
+        }
+    }
+    .mobile-scroll::-webkit-scrollbar {
+        display: none;
+    }
+    .mobile-scroll {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .row-xs{
+        height: 480px;
+        width: 100%;
+        // margin-left: 0;
+        // margin-right: 0;
+        overflow: hidden;
+    }
+    .img-xs{
+        height: 100%; /* 或其他你要的高度 */
+        // object-fit: cover; /* 可選，看你是否要裁切 */
+    }
+
+    .star-xs{
+        top: 32px;
+        left: -20px;
+        // transform: translateX(50px); /* 向右偏移 50px */
+    }
+    .sparkle-xs{
+        bottom: 104px;
+        right: -28px;
+    }
+    .boxhidden{
+        overflow: hidden;
+    }
+
+    .ins-row{
+        
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+
+    .ins-col-12{
+        width: 100%;
+        flex-direction: row;
+    }
+    .ins-col-card{
+        padding: 0;
+        width: 300px;
+        height: 300px;
+    }
+
+}

@@ -1,0 +1,431 @@
+*{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Noto Sans TC', 'Microsoft JhengHei UI', 'Microsoft JhengHei', sans-serif;
+}
+// 通用類別
+.test-border{
+    border: 1px solid red;
+}
+//color
+:root {
+    --primary-100: #F5FEE7;
+    --primary-200: #E8FEC5;
+    --primary-300: #C0FA73;
+    --primary-400: #57A203;
+    --primary-500: #477A11;
+    --neutral-0:#FFFFFF;
+    --neutral-100:#F8F9FA;
+    --neutral-200:#E9ECEF;
+    --neutral-300:#DEE2E6;
+    --neutral-400:#CED4DA;
+    --neutral-500:#ADB5BD;
+    --neutral-600:#6C757D;
+    --neutral-700:#495057;
+    --neutral-800:#343A40;
+    --neutral-900:#212529; 
+}
+.text-primary-100{
+    color:  var(--primary-100);
+}
+.text-primary-200{
+    color:  var(--primary-200);
+}
+.text-primary-300{
+    color:  var(--primary-300);
+}
+.text-primary-400{
+    color:  var(--primary-400);
+}
+.text-primary-500{
+    color:  var(--primary-500);
+}
+.text-neutral-0{
+    color:  var(--neutral-0);
+}
+.text-neutral-100{
+    color:  var(--neutral-100);
+}
+.text-neutral-200{
+    color:  var(--neutral-200);
+}
+.text-neutral-300{
+    color:  var(--neutral-300);
+}
+.text-neutral-400{
+    color:  var(--neutral-400);
+}
+.text-neutral-500{
+    color:  var(--eutral-500);
+}
+.text-neutral-600{
+    color:  var(--neutral-600);
+}
+.text-neutral-700{
+    color:  var(--neutral-700);
+}
+.text-neutral-800{
+    color:  var(--neutral-800);
+}
+.text-neutral-900{
+    color:  var(--neutral-900);
+}
+
+
+//背景顏色
+.bg-primary-100 {
+  background-color: var(--primary-100);
+}
+.bg-primary-200 {
+  background-color: var(--primary-200);
+}
+.bg-primary-300 {
+  background-color: var(--primary-300);
+}
+.bg-primary-400 {
+  background-color: var(--primary-400);
+}
+.bg-primary-500 {
+  background-color: var(--primary-500);
+}
+.bg-neutral-100{
+    background-color:  var(--neutral-100);
+}
+.bg-neutral-900{
+    background-color:  var(--neutral-900);
+}
+
+// 字型內容
+.text-no-decoration {
+    text-decoration: none ;
+}
+.logofont{
+    font-family: 'Mina', sans-serif;
+}
+.display1-sm{
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    // color: #FFFFFF;
+}
+.display2-sm{
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #363636;
+}
+.h1-sm{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h2-sm{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h3-sm{
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.h4-sm{
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.h5-sm{
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 20px;
+}
+.h6-sm{
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 16px;
+}
+.label-lg{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.lebel-md{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.label-sm{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.label-xs{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 12px;
+}
+.p-lg{
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.p-md{
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.p-sm{
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.p-xs{
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+
+//通用類別
+.me-sm-12{
+    margin-right: 12px;
+}
+.ms-sm-12{
+    margin-left: 12px;
+}
+.ms-sm-24{
+    margin-left: 24px;
+}
+.ms-sm-40{
+    margin-left: 40px;
+}
+
+.left-200{
+    left: 200px;
+}
+.mb-sm-12{
+    margin-bottom: 12px ; 
+}
+.mb-sm-24{
+    margin-bottom: 24px;
+}
+.mb-sm-32{
+    margin-bottom: 32px;
+}
+.mb-sm-40{
+    margin-bottom: 40px;
+}
+.mb-sm-48{
+    margin-bottom: 48px;
+}
+.mb-sm-64{
+    margin-bottom: 64px;
+}
+.mt-sm-12{
+    margin-top: 12px;
+}
+.mt-sm-24{
+    margin-top: 24px;
+}
+.mt-sm-32{
+    margin-top: 32px;
+}
+.mt-sm-48{
+    margin-top: 48px;
+}
+.mt-sm-60{
+    margin-top: 60px;
+}
+.mt-sm-64{
+    margin-top: 64px;
+}
+.px-sm-12{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.px-sm-24{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.py-sm-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.py-sm-24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.py-sm-32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.py-sm-48{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.py-sm-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.py-sm-151{
+    padding-top: 151px;
+    padding-bottom: 151px;
+}
+.pb-sm-16{
+    padding-bottom: 16px;
+}
+.pb-sm-64{
+    padding-bottom: 64px;
+}
+.border1-b{
+    border-bottom: 1px solid #DEE2E6;
+    // border-bottom: 1px solid red;
+}
+
+//頁面樣式
+.herotext{
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true');
+    background-size: cover;       /* 讓背景圖等比例填滿容器 */
+    background-position: center;  /* 背景圖置中 */
+    width: 100%;                  /* 撐滿寬度（根據你的容器） */
+}
+
+.p-underline{
+    border-bottom: 1px solid var(--primary-400);
+    padding-bottom: 4px;
+}
+.border-radius{
+    border-radius: 4px;
+} 
+.history-list{
+    list-style-type: disc;
+}
+.history-desc{
+    border-left: 1px solid var(--neutral-900);
+    padding-left: 8px;
+}
+
+
+@media (max-width: 576px) {
+    //通用類別
+    .ms-24{
+        margin-left: 24px;
+    }
+    .mb-24{
+        margin-bottom: 24px;
+    }
+    .mb-32{
+       margin-bottom: 32px !important; 
+    }
+    .mb-40{
+        margin-bottom: 40px;
+    }
+    .mb-64{
+        margin-bottom: 64px;
+    }
+    .mt-24{
+        margin-top: 24px;
+    }
+    .mt-32{
+        margin-top: 32px;
+    }
+    .mt-40{
+        margin-top: 40px;
+    }
+    .mx-xs-12{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .py-12{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .py-xs-24{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .py-xs-64{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .px-xs-12{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    .px-xs-24 {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+    .pb-xs-32{
+        padding-bottom: 32px;
+    }
+    .py-xs-87{
+        padding-top: 87px;
+        padding-bottom: 87px;
+    }
+    //文字
+    .display2{
+        font-size: 48px;
+        line-height: 1.2;
+        letter-spacing: 0.05em;
+    }
+    .h1{
+        font-weight: 700;
+        font-size: 40;
+        line-height: 1.2;
+        letter-spacing: 0.05em;
+    }
+    .h2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.2;
+        letter-spacing: 0.05em;
+    }
+    .h3{
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    .h4{
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .h5{
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 20px;
+    }
+    .h6{
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 16px;
+    }
+    .herotext{
+        background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true');
+    }
+
+}

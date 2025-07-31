@@ -116,7 +116,7 @@ background-color: var(--primary-200);
 }
 .h1-sm{
     font-weight: 700;
-    font-size: 40;
+    font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.05em;
 }
@@ -205,7 +205,9 @@ background-color: var(--primary-200);
 .ms-sm-40{
     margin-left: 40px;
 }
-
+.mb-sm-32{
+    margin-bottom: 32px;
+}
 .left-200{
     left: 200px;
 }
@@ -222,6 +224,13 @@ background-color: var(--primary-200);
 }
 
 ///頁面樣式
+.banner{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);   
+    padding: 100px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .star{
     
     width: 48px;
@@ -268,7 +277,7 @@ background-color: var(--primary-200);
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     //通用類別
     .gy-12{
         --bs-gutter-y: 12px; 
@@ -395,5 +404,11 @@ background-color: var(--primary-200);
         width: 300px;
         height: 300px;
     }
+    .banner{
+        text-align: center;
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);   
+        padding: 64px 0;
 
+        overflow: hidden;
+    }
 }
